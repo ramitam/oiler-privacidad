@@ -1,4 +1,4 @@
-# Política de privacidad — Finanzas Personales
+# Política de privacidad — Oiler
 
 Política de privacidad de la app, publicada con GitHub Pages en
 https://ramitam.github.io/oiler-privacidad/
