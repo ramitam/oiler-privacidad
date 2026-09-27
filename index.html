@@ -40,13 +40,19 @@
 <body>
 
 <h1>Política de privacidad</h1>
-<p class="fecha">Oiler · Última actualización: 17 de septiembre de 2026</p>
+<p class="fecha">Oiler · Última actualización: 27 de septiembre de 2026</p>
 
 <div class="destacado">
   <strong>En una frase:</strong> tus gastos, ingresos y recordatorios viven solo en tu
-  teléfono; nunca salen de ahí. Lo único que la aplicación envía son estadísticas de uso
-  anónimas —qué funciones se usan, no qué cargás en ellas— y podés apagarlas cuando quieras.
+  teléfono; nunca salen de ahí. Lo único que sale son estadísticas de uso anónimas —qué
+  funciones se usan, no qué cargás en ellas—, que podés apagar cuando quieras, y el estado de
+  tu suscripción, que verifica la tienda.
 </div>
+
+<p>
+  Esta política aplica a la aplicación Oiler para iPhone y para Android, ofrecida por Ramiro
+  Gastón Millán, Argentina.
+</p>
 
 <h2>Qué información maneja la aplicación</h2>
 <p>Para funcionar, la aplicación guarda lo que vos cargás:</p>
@@ -54,8 +60,10 @@
   <li>Los gastos que registrás: monto, categoría, fecha y, si los completás, comercio y nota.</li>
   <li>Los recordatorios de pago que agendes: monto, categoría, en cuántas cuotas, cada cuánto se repite y las fechas de vencimiento.</li>
   <li>Tus categorías, con su nombre, ícono y color.</li>
-  <li>Tu ingreso mensual y los ingresos extra que cargues.</li>
-  <li>El nombre que escribas para el saludo de la pantalla de inicio.</li>
+  <li>Los ingresos que cargues, con su monto, categoría y fecha.</li>
+  <li>El presupuesto mensual y los topes por categoría, si los definís.</li>
+  <li>El nombre que escribas para el saludo de la pantalla de inicio, y tus preferencias:
+    idioma, moneda, si querés el recordatorio diario.</li>
 </ul>
 
 <h2>Dónde se guarda</h2>
@@ -114,6 +122,28 @@
   aplicaciones o sitios.
 </p>
 
+<h2>La suscripción</h2>
+<p>
+  Oiler se usa con una suscripción que se paga a través de la App Store o de Google Play. El
+  cobro lo hace la tienda: nosotros nunca vemos tu tarjeta ni tus datos de pago, y lo que
+  Apple o Google guardan de esa compra se rige por sus propias políticas.
+</p>
+<p>
+  Para saber si tu suscripción está activa usamos
+  <a href="https://www.revenuecat.com/privacy">RevenueCat</a>, un servicio con servidores en
+  Estados Unidos que recibe de la tienda el estado de la compra —qué plan, desde cuándo, hasta
+  cuándo, si está en período de prueba— junto con un identificador aleatorio generado en tu
+  teléfono. No recibe tu nombre, tu mail, tu tarjeta ni nada de lo que cargás en la
+  aplicación. Ese identificador es el "ID de soporte" que ves en la pantalla de suscripción y
+  en Más: si nos lo mandás, podemos ver qué pasó con tu compra o darte acceso; si no nos lo
+  mandás, no hay forma de asociarlo a vos.
+</p>
+<p>
+  Si la suscripción termina, tus datos no se borran: quedan en tu teléfono y los recuperás al
+  volver a suscribirte. Y en cualquier momento, con o sin suscripción, podés exportar tus
+  gastos como archivo CSV desde la pantalla de suscripción o desde <em>Más</em>.
+</p>
+
 <h2>Qué no hacemos</h2>
 <ul>
   <li>No recolectamos datos personales: ni nombre, ni correo, ni contactos, ni ubicación.</li>
@@ -123,16 +153,28 @@
   <li>No hay cuentas de usuario, registro ni inicio de sesión.</li>
   <li>No rastreamos tu actividad fuera de la aplicación ni entre aplicaciones. En iPhone,
     la aplicación no te pide el permiso de rastreo porque no rastrea.</li>
-  <li>El único tercero que recibe información es PostHog, y solo las estadísticas anónimas
-    descritas arriba.</li>
+  <li>Los únicos terceros que reciben información son PostHog (estadísticas anónimas) y
+    RevenueCat (estado de la suscripción), en los términos descritos arriba, además de la
+    tienda donde pagás. Ninguno recibe lo que cargás.</li>
+  <li>No vendemos ni cedemos información a nadie.</li>
 </ul>
 
-<h2>La función de exportar</h2>
+<h2>Dónde se procesa</h2>
 <p>
-  La aplicación te permite exportar tus gastos. Cuando la usás, se arma un texto con tu
-  información y se abre la hoja para compartir del sistema, donde vos elegís el destino: un mail,
-  una nota, un mensaje. Esa acción la iniciás y la controlás vos por completo; la aplicación
-  no envía nada por su cuenta ni conserva copia de lo exportado. A partir de ese momento, la
+  PostHog y RevenueCat procesan los datos que reciben en Estados Unidos. Como lo único que les
+  llega son un identificador aleatorio, eventos de uso y el estado de una compra, ese
+  tratamiento no permite identificarte. Si preferís que ni siquiera eso salga de tu teléfono,
+  podés apagar las estadísticas de uso; el estado de la suscripción es necesario para que la
+  aplicación funcione y no se puede desactivar mientras estés suscripto.
+</p>
+
+<h2>Exportar y compartir</h2>
+<p>
+  La aplicación te permite exportar tus gastos como archivo CSV, y compartir como imagen el
+  resumen del mes, el de la semana, el reparto de una cuenta o un plan de ahorro. En todos los
+  casos se abre la hoja para compartir del sistema, donde vos elegís el destino: un mail, una
+  nota, un mensaje, tus archivos. Esa acción la iniciás y la controlás vos por completo; la
+  aplicación no envía nada por su cuenta ni conserva copia. A partir de ese momento, la
   información queda sujeta a las políticas de la app que hayas elegido como destino.
 </p>
 
@@ -176,16 +218,25 @@
 <h2>Cambios en esta política</h2>
 <p>
   Si en el futuro la aplicación incorpora funciones que cambien cómo se manejan los datos —por
-  ejemplo, sincronización entre dispositivos o suscripciones— esta política se va a actualizar
-  antes de que esa función esté disponible, y la fecha del encabezado va a reflejar el cambio.
-  La incorporación de las estadísticas de uso anónimas, en septiembre de 2026, fue el primer
-  cambio de este tipo.
+  ejemplo, sincronización entre dispositivos— esta política se va a actualizar antes de que esa
+  función esté disponible, y la fecha del encabezado va a reflejar el cambio. Las estadísticas
+  de uso anónimas y la suscripción, las dos en septiembre de 2026, fueron los primeros cambios
+  de este tipo.
+</p>
+
+<h2>Tus derechos</h2>
+<p>
+  Como tus datos no salen de tu teléfono, vos mismo podés verlos, exportarlos, corregirlos y
+  borrarlos desde la aplicación, sin pedírnoslo. Si igual querés consultarnos algo, o pedir que
+  se borre lo que RevenueCat guarda de tu suscripción, escribinos con tu ID de soporte y lo
+  gestionamos.
 </p>
 
 <h2>Contacto</h2>
 <p>
   Por cualquier consulta sobre esta política, escribinos a
-  <a href="mailto:ramiromillan@outlook.com">ramiromillan@outlook.com</a>.
+  <a href="mailto:ramiromillan@outlook.com">ramiromillan@outlook.com</a>. Los
+  <a href="terminos.html">términos de uso</a> están en una página aparte.
 </p>
 
 <footer>
